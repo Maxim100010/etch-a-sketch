@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="etchSketch.js" defer></script>
+  </head>
+  <body>
+    <header>Etch - A - Sketch</header>
+
+    <div class="drawingSpace">
+      <div class="options">
+        <h1>Options</h1>
+
+        <div id="subOptions">
+          <select name="size" id="size">
+            <option value="16">16x16</option>
+            <option value="32">32x32</option>
+            <option value="64">64x64</option>
+          </select>
+          <label for="size">Grid size</label>
+        </div>
+
+        <div id="subOptions">
+          <input type="color" id="picker" name="picker" value="#4287f5" />
+          <label for="picker">Choose a color</label>
+        </div>
+
+        <button>Clear</button>
+
+      </div>
+
+      <div class="board">
+
+      </div>
+    </div>
+
+    <footer><p>By Maxim Frano</p></footer>
+  </body>
+</html>
